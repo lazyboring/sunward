@@ -1,4 +1,4 @@
-package com.macro.mall.pk.component;
+package com.macro.mall.component;
 
 import com.macro.mall.common.api.CommonResult;
 import org.aspectj.lang.ProceedingJoinPoint;

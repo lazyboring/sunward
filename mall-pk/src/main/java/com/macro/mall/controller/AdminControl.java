@@ -1,7 +1,8 @@
-package com.macro.mall.pk.controller;
+package com.macro.mall.controller;
 
 import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.pk.service.AdminService;
+import com.macro.mall.dao.AdminDao;
+import com.macro.mall.service.AdminService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,8 @@ public class AdminControl {
 
     @ApiOperation()
     @RequestMapping(value = "/member")
-    public CommonResult<>
+    public CommonResult<AdminDao> getMember(){
+        adminService.getAll()
+    }
 
 }

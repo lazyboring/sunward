@@ -1,4 +1,4 @@
-package com.macro.mall.pk.config;
+package com.macro.mall.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;

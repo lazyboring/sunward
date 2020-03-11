@@ -1,4 +1,4 @@
-package com.macro.mall.pk.config;
+package com.macro.mall.config;
 
 import com.macro.mall.demo.bo.AdminUserDetails;
 import com.macro.mall.mapper.UmsAdminMapper;

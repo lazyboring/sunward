@@ -1,4 +1,4 @@
-package com.macro.mall.pk.component;
+package com.macro.mall.component;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
